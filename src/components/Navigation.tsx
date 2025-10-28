@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <header className="px-[3%] sticky top-0 left-0 right-0 z-[100] bg-[#1C0C4E] text-[#FFFFFF] shadow-md flex justify-center md:justify-between items-center">
+    <header className="px-[3%] sticky top-0 left-0 right-0 z-100 bg-[#1C0C4E] text-[#FFFFFF] shadow-md flex justify-center md:justify-between items-center">
       
       <div className="hidden md:flex h-16 justify-between items-center">
         <Link href="/" className="text-2xl font-bold tracking-wide">
@@ -22,7 +22,7 @@ export default function Navigation() {
       
       <button className="hidden md:flex items-center">
         <a
-          href="/Nyasha-Zimbudzana-Resume.pdf"
+          href="/Nyasha-Zimbudzana-Fullstack-Developer.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="capitalize cursor-pointer text-[12px] md:text-xl px-2 py-1 md:px-4 md:py-2 bg-white text-[#7B1FEA] rounded shadow-lg hover:bg-[#7B1FEA] hover:text-white transition active:opacity-[0.5]"
